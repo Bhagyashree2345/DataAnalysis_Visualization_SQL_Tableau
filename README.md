@@ -10,7 +10,7 @@ SQL Queries:
    
 3. Show total number of customers:
  
-   __SELECT count(*) FROM customers;__
+    __SELECT count(*) FROM customers;__
    
 5. Show transactions for Chennai Market:
 
@@ -18,11 +18,11 @@ SQL Queries:
    
 7. Show transaction where currency is US:
  
-  __SELECT * FROM transactions where currency='USD';__
+    __SELECT * FROM transactions where currency='USD';__
 
 8. Show transaction in 2020 join by date table:
  
-   __SELECT transactions.*,
+    __SELECT transactions.*,
    date.* FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020;__
 
 9. Show totalll revenue in year 2020:
